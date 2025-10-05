@@ -1,0 +1,55 @@
+body {
+    margin: 0 ;
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3YmVpM3ducWE4Ym85ZzFydzR4ZDJ2em90YmgyemhmbWdzZ2R4M2V4YyZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/xUPGGu9zmB3gYjxzdC/giphy.gif"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.hero {
+    /* Set the background image */
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3Z0YjRxYm9nem9tZGpzNnRrOGlud2RrNXowcXJxeXY2ZTZuemZ0YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NUerTD084nycEtJtCK/giphy.gif");
+
+    /* Cover the entire viewport */
+    background-size: cover;
+
+    /* Keep it centered */
+    background-position: center center;
+
+    /* Fix it in place */
+    background-repeat: no-repeat;
+
+
+
+    /* Optional: smooth scaling on resize */
+    background-attachment: fixed;
+    width: 600px;
+    height: 700px;
+    text-align: center; 
+    margin-top: 100px;
+    border-radius: 15px;
+    display: flex; 
+    justify-content: center; 
+    text-align: center;
+
+}
+    
+
+
+button {
+    border: none; 
+    background-color: lightgrey; 
+    font-size: 30px;
+    color: black; 
+    padding: 8px;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: aliceblue; 
+}
+h1,h2,h3 {
+    color: white; 
+}
